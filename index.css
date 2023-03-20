@@ -30,6 +30,16 @@ h1 {
     line-height: 38px;
     text-align: center;
     letter-spacing: -0.03em;
+    margin-bottom: 5px;
+}
+
+#enter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
 }
 
 input {
