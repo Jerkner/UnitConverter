@@ -8,7 +8,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 550px;
-    height: 748px;
+    height: 744px;
     background-color: #1F2937;
     color: #FFFFFF;
 }
@@ -36,10 +36,11 @@ h1 {
 #enter {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 38px;
     text-align: center;
+    margin-bottom: 3px;
 }
 
 input {
