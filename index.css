@@ -26,11 +26,16 @@ h1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 38px;
     text-align: center;
     letter-spacing: -0.03em;
-    margin-bottom: 5px;
+
+    /* with #enter text: */ 
+    /* margin-bottom: 5px; */
+
+    /* without #enter text: */
+    margin-bottom: 35px;
 }
 
 #enter {
@@ -58,16 +63,22 @@ input {
     text-align: center;
 }
 
-::placeholder {
+.input-field::placeholder { 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 800;
-    font-size: 58px;
+    font-weight: 600;
+    font-size: 18px;
     color: #FFFFFF;
+    transform: translate(0, -17px);
+}
+
+.input-field:focus::placeholder {
+    color: transparent;
 }
 
 textarea:focus, input:focus{
     outline: none;
+
 }
 
 button {

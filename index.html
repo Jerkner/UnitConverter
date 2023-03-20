@@ -18,8 +18,8 @@
     <div class="main-container">
         <div id="hero">
             <h1>Metric / Imperial Unit Converter</h1>
-            <div id="enter">Enter value below</div>
-            <input id="input" type="text" placeholder="" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+            <!-- <div id="enter">Enter value below</div> -->
+            <input id="input" class="input-field" type="text" placeholder="Enter value here" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
             <button id="convert-btn">Convert</button>
         </div>
         <div id="output-container">
